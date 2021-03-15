@@ -3,9 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+class myInput extends React.Component {
+  constructor(props){
+      super(props);
+      this.state={data: new Date()};
+  }
+  render(){
+      return(
+          <div>
+           <h2>Hello world it is {this.state.date.toLocaleString()}</h2>
+          </div>
 
+      );
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
+        <myInput/>
+
     <App />
   </React.StrictMode>,
   document.getElementById('root')

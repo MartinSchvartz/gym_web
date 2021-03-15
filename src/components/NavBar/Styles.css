@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background: #36de77;
+  color: white;
+}
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+li {
+  order: none;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: left;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Poppins;
+  cursor: pointer;
+  display: inline-block;
+}
